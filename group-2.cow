@@ -1,7 +1,14 @@
-                                                $thoughts
-                                            $thoughts
-                                         $thoughts
-                                                       
+##
+## Docker cow for group 2
+##
+$the_cow = <<EOC;
+
+    $thoughts
+     $thoughts
+      $thoughts
+
+EOC
+$the_cow .= <<'EOC';                                      
                                   #*****               
                        *********************#          
                        ****+===+**************         
@@ -25,3 +32,4 @@
               @@@@@@@@            @@@@@@@              
               @@@@@@@@               @@@@@             
                                             
+EOC
